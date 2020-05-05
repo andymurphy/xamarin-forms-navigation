@@ -2,8 +2,11 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Astronomy.Pages.SunrisePage"
-             Title="Sunrise/Sunset Times">
-
+             xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core"
+            ios:Page.UseSafeArea="True"
+             Title="Sunrise/Sunset Times"
+             Icon="sun.png">
+    <!-- TODO add the ios safe area from above to the moon phase and about pages. -->
     <ContentPage.Resources>
         <ResourceDictionary>
             <Style TargetType="Label">

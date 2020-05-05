@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:local="clr-namespace:Astronomy"
-             x:Class="Astronomy.MainPage"
-             Title="Contoso Astronomy"
-             BackgroundImage="starfield.png">
+            xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            xmlns:local="clr-namespace:Astronomy"
+            xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core"
+            ios:Page.UseSafeArea="True"
+            x:Class="Astronomy.MainPage"
+            Title="Contoso Astronomy"
+            BackgroundImage="starfield.png">
+    <!-- Children are added in the C sharp code in the .cs file, but they could be added here. -->
 
 </TabbedPage>
